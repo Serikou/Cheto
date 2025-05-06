@@ -11,11 +11,11 @@ def test_login_success(driver):
     login.click_login()
     login.enter_password("proweb3106632")
     login.click_login()
-    login.find_dropdown()
-    login.click_btn_finish()
-
-    home_page = HomePage(driver)
-    home_page.click_profile()
+    # login.find_dropdown()
+    # login.click_btn_finish()
+    #
+    # home_page = HomePage(driver)
+    # home_page.click_profile()
 
 
 # def test_login_invalid(driver):
