@@ -13,3 +13,4 @@ class HomePage:
         WebDriverWait(self.driver, 5).until(
             EC.element_to_be_clickable(self.profile)
         ).click()
+ 
